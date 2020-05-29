@@ -8,3 +8,8 @@
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
+body {
+    font-family: monospace;
+    font-size: large;
+}
