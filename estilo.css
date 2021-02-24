@@ -1,15 +1,40 @@
-.container {
-    position: absolute;
-    text-align: justify;
-    text-justify: inter-word;
-    top: 50%;
-    left: 40%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+body {
+  font-family: monospace;
 }
 
-body {
-    font-family: monospace;
-    font-size: large;
+dt {
+font-weight: bold;
+}
+
+.lado {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.esquerdo {
+  left: 0;
+}
+
+.direito {
+  right: 0;
+}
+
+.centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centrão {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
