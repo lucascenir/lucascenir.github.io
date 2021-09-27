@@ -1,5 +1,8 @@
 body {
   font-family: monospace;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
 }
 
 dt {
@@ -25,16 +28,8 @@ font-weight: bold;
 }
 
 .centro {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .centrão {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
