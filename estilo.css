@@ -1,35 +1,63 @@
 body {
-  font-family: monospace;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 5%;
+	font-family: "Liberation Serif", liber, sans-serif, serif;
+	font-size: 0.8em;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
 }
 
-dt {
-font-weight: bold;
+header {
+	padding-bottom: 1em;
+	padding-top: 0.5em;
 }
 
-.lado {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+div {
+	margin-bottom: 2em;
 }
 
-.esquerdo {
-  left: 0;
+h5 {
+	border-bottom: 1px dotted #100;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: .75em 0em 0.25em 0em;
+	text-transform: uppercase;
 }
 
-.direito {
-  right: 0;
+blockquote {
+	font-style: italic;
+	text-align: justify;
+	padding-top: 0.5em;
 }
 
-.centro {
-  text-align: center;
+.dir {
+	text-align: right;
 }
 
-.centrão {
+.indice {
+	width: 100%;
+	padding: 0.4em 0;
+}
+
+@font-face {
+    font-family: "liber";
+    src: url("f/lib.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "liber";
+    src: url("f/lib-bold.woff2") format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "liber";
+    src: url("f/lib-bold-oblique.woff2") format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "liber";
+    src: url("f/lib-oblique.woff2") format('woff2');
+    font-style: italic;
 }
