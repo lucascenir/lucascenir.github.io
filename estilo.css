@@ -105,3 +105,9 @@ img {
     src: url("f/lib-oblique.woff2") format('woff2');
     font-style: italic;
 }
+
+@media (max-width: 480px) {
+  img {width: 25%; height: auto;}
+	.esquerda {padding-bottom: 0em; padding-right: 1em;}
+	.direita {padding-bottom: 0em; padding-left: 1em;}
+}
