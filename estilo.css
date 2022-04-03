@@ -55,7 +55,7 @@ blockquote {
 	font-weight: bold;
 	text-align: center;
 	padding-top: 1em;
-	width: 65%;
+	width: 62%;
 	margin: auto;
 }
 
@@ -107,7 +107,8 @@ img {
 }
 
 @media (max-width: 480px) {
-  img {width: 25%; height: auto;}
+img {width: 25%; height: auto;}
 	.esquerda {padding-bottom: 0em; padding-right: 1em;}
 	.direita {padding-bottom: 0em; padding-left: 1em;}
+.citacao {font-weight: bold; text-align: center; padding-top: 1em; width: 75%; margin: auto;}
 }
