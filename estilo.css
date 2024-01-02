@@ -82,6 +82,8 @@ img {
 	padding-left: 1em;
 }
 
+li {margin-top: 0.5rem;}
+
 @font-face {
     font-family: "liber";
     src: url("f/lib.woff2") format('woff2');
