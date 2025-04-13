@@ -1,5 +1,59 @@
 body 
-{margin-top: 3rem;}
+{margin-top: 3rem; font-family: "EB Garamond"; margin-left: 5%; margin-right: 5%;}
 
-pre 
+main 
 {max-width: max-content; margin: auto;}
+
+main > article
+{margin-bottom: 4rem;}
+
+article section:nth-child(odd)
+{text-align: right;}
+
+h2
+{font-size: 1rem; font-weight: 500; font-variant: all-small-caps; margin-bottom: 0.25rem; margin-top: 2rem;}
+
+p
+{margin-top: 0.25rem; margin-bottom: 0;}
+
+cite
+{font-style: normal;}
+ cite[lang]
+ {font-style: italic;}
+
+em
+{font-style: normal; font-variant: small-caps;}
+ em::before
+ {content: '❦'; padding-left: .25rem; padding-right: .5rem;}
+
+abbr
+{text-decoration: none;}
+
+
+#livros
+{font-variant-ligatures: common-ligatures discretionary-ligatures historical-ligatures;}
+ #livros h2 + p
+ {font-size: 1.125rem;}
+
+/* Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12) — OFL */
+
+@font-face {
+    font-family: "EB Garamond";
+    src: url("ebgaramond/normal.ttf") format("truetype");
+    font-weight: 400 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "EB Garamond";
+    src: url("ebgaramond/italico.ttf") format("truetype");
+    font-weight: 400 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Licensed under SIL Open Font License, Version 1.1. (https://openfontlicense.org/documents/OFL.txt) */
+
+@media (max-width: 480px)
+{main {max-width: 100%;}}
