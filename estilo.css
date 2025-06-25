@@ -4,6 +4,9 @@ body
 main 
 {max-width: max-content; margin: auto;}
 
+main > img:first-of-type
+{margin-left: -12px;}
+
 main > article
 {margin-bottom: 4rem;}
 
